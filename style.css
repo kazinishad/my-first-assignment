@@ -1,0 +1,329 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#mainbanner{
+    width: 1100px ;
+    height: 500px;
+    background-image: linear-gradient(to right,black,transparent), url(Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: contain ;
+    margin-top: 50px;
+    margin-left: 130px;
+    border-radius: 10px;
+}
+.banner{
+    text-align: center;
+    color: white;
+    
+}
+.banner h1{
+    padding-top: 100px;
+}
+.banner h2{
+    font-size: 60px;
+}
+
+.scndpartall{
+    text-align: center;
+    margin-top: 50px;
+}
+.scndpartall h1,h2,h3{
+    margin-bottom: 15px;
+}
+.scndpartall h1{
+    font-size: 50px;
+    color: red;
+}
+.scndpartall h2{
+    color: red;
+    font-size: 15px;
+}
+.scndpartall h3{
+    font-size: 35px;
+}
+.scndpartall img{
+    width: 500px;
+
+}
+#thrdpart{
+    width: 1100px ;
+    height: 500px;
+    background-image: linear-gradient(to right,black,transparent), url(Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: contain ;
+    margin-top: 50px;
+    margin-left: 130px;
+    border-radius: 10px;
+    display: flex;
+
+}
+.thrdimg{
+    width: 300px;
+    margin-right: 100px;
+}
+.thrdpartall{
+    color: white;
+    padding-top: 100px;
+    margin-left: 100px;
+}
+.thrdpartall h1{
+    font-size: 60px;
+}
+.thrdpartall p{
+    width: 50%;
+    text-align: justify;
+    margin-top: 20px;
+
+}
+.thrdpartall button{
+    margin-top: 30px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+
+#fourpart{
+    width: 1100px ;
+    height: 250px;
+    background-color:rgb(233, 201, 212) ;
+    background-repeat: no-repeat;
+    background-size: contain ;
+    margin-top: 50px;
+    margin-left: 130px;
+    border-radius: 10px;
+}
+.fourpartall span{
+    color: red;
+}
+.fourpartall{
+    text-align: center;
+    padding-top: 60px;
+}
+.fourpartall h1,h2,h3{
+    font-size: 20px;
+
+}
+.fourpartall h2{
+    margin-top: 5px;
+}
+.fourpartall h3{
+    margin-top: -6px;
+}
+.fourpartall button{
+    padding: 15px;
+    background: rgb(248, 36, 36);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#fivepart{
+    width: 1100px ;
+    height: 350px;
+    background-color:rgb(245, 241, 242) ;
+    background-repeat: no-repeat;
+    background-size: contain ;
+    margin-top: 50px;
+    margin-left: 130px;
+    border-radius: 10px;
+}
+.fivepartall{
+    display: flex;
+}
+.fivepartall .fivediv2 img{
+    width: 300px;
+    border: 5px solid red;
+    padding: 20px;
+    border-radius: 200px;
+}
+.fivepartall .fivediv1{
+    padding-top: 60px;
+    margin-left: 20px;
+}
+.fivepartall .fivediv1 h1{
+    font-size: 15px;
+    color: red;
+}
+.fivepartall .fivediv1 h2{
+    font-size: 30px;
+}
+.fivepartall .fivediv1{
+    width: 300px;
+}
+.fivepartall .fivediv3{
+    width: 300px;
+    padding-top: 60px;
+}
+.fivepartall .fivediv2, .fivediv3{
+    margin-left: 100px;
+}
+.fivepartall .fivediv3 h1{
+    font-size: 40px;
+    color: red;
+}
+.fivepartall .fivediv3 h1,p,img{
+        margin-top: 10px;
+}
+#sixpart{
+    width: 1100px ;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 130px;
+    border-radius: 10px;
+}
+#sixpart h6,.sixpart1{
+    text-align: center;
+
+}
+.sixpart1 h5{
+    font-size: 40px;
+}
+.sixpart1 span{
+    color: red;
+}
+.sixpart1 p{
+    width: 600px;
+    margin-left: 270px;
+}
+.sixpart2{
+    width: 100%;
+}
+.sixpart2 {
+    text-align: right;
+}
+.sixpart2 .siximg1{
+    height: 240px;
+
+}
+.sixpart2 .siximg2{
+    height: 150px;
+   position: absolute;
+   left: 930px;
+}
+.sixpart2 .siximg3{
+   width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.sixpart2 .siximg4{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 300px;
+    margin-top: -230px;
+    
+}
+#sevenpart{
+    margin-top: 200px;
+    margin-left: 140px;
+}
+.svnparttext h4{
+    color: red;
+}
+.svnparttext h5{
+    font-size: 40px;
+}
+.svnpartimg .svnimg1 .svnimg{
+    height: 300px;
+    width: 300px;
+}
+.svnpartimg{
+    display: flex;
+    margin-left: -45px;
+}
+
+.svnpartimg .svnimg1{
+    margin-left: 50px;
+}
+.svnpartimg2 .svnimg2 .svnimg{
+    height: 300px;
+    width: 300px;
+}
+.svnpartimg2{
+    display: flex;
+    margin-left: -45px;
+}
+.svnpartimg2 .svnimg2{
+    margin-left: 50px;
+}
+.svnimg:hover{
+    transform:rotate(1deg);
+    box-shadow: 6px 6px 6px  blue;
+    border-radius: 8px;
+}
+
+
+#eightpart{
+    margin-top: 20px;
+    background-color: rgb(247, 191, 191);
+    padding-bottom: 20px;
+}
+.eightpartall{
+    text-align: center;
+}
+.eightpartall h3{
+    font-size: 35px;
+}
+.eightpartall p{
+    width: 800px;
+    margin-left: 250px;
+}
+.eightpartall input{
+
+    background: white;
+   border: none;
+   padding: 13px 20px 13px 20px;
+   border-bottom-left-radius: 10px;
+   border-top-left-radius: 10px;
+}
+.eightpartall button{
+    background: red;
+    color: white;
+    border: none;
+    padding: 13px 20px 13px 20px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#footer{
+
+    background: rgb(1, 20, 43);
+    color: aliceblue;
+    font-size: 20px;
+}
+.footermain{
+    width: 1100px ;
+    height: 180px;
+    margin-top: 50px;
+    margin-left: 130px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.footertext1 h6{
+    padding-top: 55px;
+    font-size: 17px;
+}
+.footertext2 h5{
+    padding-top: 50px;
+    
+
+}
+.footertext2 h5 img{
+   width: 15px;
+}
+.footertext2 h4 img{
+    width: 15px;
+ }
+.footericon{
+    text-align: center;
+}
+hr{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
